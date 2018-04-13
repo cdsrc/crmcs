@@ -8,6 +8,6 @@ additive manufacturing process monitoring and control.
 
 ## 3. Send sensor data to cloud platform
 
-## 4. Analyze data though cloud service
+## 4. Analyze data through cloud service
 
 ## 5. Send feed back information from cloud to Arduino controller
