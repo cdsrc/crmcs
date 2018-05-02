@@ -63,5 +63,5 @@ void callback( char* topic, byte* payload, unsigned int length ) {
 ## 4. Store and analyze data within IBM cloud
 
 ## 5. Send feedback (analysis results) to Photon/Arduino
-## Acknowledgement
-This project is supported by the National Science Foundation, RISE NSF#1646897. 
+## Acknowledgment
+This project is supported by the National Science Foundation, RISE NSF#1646897.
