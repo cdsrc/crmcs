@@ -19,6 +19,7 @@ The connection includes: (a) connect multiple sensors with Arduino; (b) communic
   then return "1", otherwise, return "0". The returned commands "1" or "0" is sent back to IBM Cloud. The node-red flows can be found [here](http://node-red-ammonitoring.mybluemix.net/red/);
   * receive the "1" or "0" commands from IBM Cloud to Photon (`client.subscribe`), and blink the LED lights if the command is "1".  
 * The codes are as follows:
+
 ```cpp
 #include "MQTT/MQTT.h"
 
