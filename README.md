@@ -1,6 +1,6 @@
 # Cloud based Real-time Monitoring and Control System (ongoing)
 This project uses cloud platform (IBM Cloud) to conduct process monitoring and control, e.g.,
-additive manufacturing process monitoring and control.
+additive manufacturing process monitoring and control: ![alt text](https://raw.githubusercontent.com/cdsrc/crmcs/master/assets/images/connected-AM.png).
 
 The system's hardware include: sensors (gyroscope, camera etc.), Arduino, and Photon.
 To build the system, there are two major steps, i.e., (1) enable the connection of sensors-Arduino-Photon-IBMCloud;
