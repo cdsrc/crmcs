@@ -16,7 +16,7 @@ The connection includes: (a) connect multiple sensors with Arduino; (b) communic
 * Write codes to Photon to enable the connection. The connection is via MQTT. A simple example that sends and analyzes random number is as follows:
   * generate 0-100 random numbers and send the number to IBM IoT (`client.connect` and `client.publish`);
   * use **Node-RED** to simply analyze the random number, i.e., if the number is bigger than a specified threshold,
-  then return "1", otherwise, return "0". The returned commands "1" or "0" is sent back to IBM Cloud. The node-red flows can be found [here](http://node-red-ammonitoring.mybluemix.net/red/);
+  then return "1", otherwise, return "0". The returned commands "1" or "0" is sent back to IBM Cloud. The Node-RED flows can be found [here](http://node-red-ammonitoring.mybluemix.net/red/);
   * receive the "1" or "0" commands from IBM Cloud to Photon (`client.subscribe`), and blink the LED lights if the command is "1".  
 * The codes are as follows:
 
@@ -82,7 +82,7 @@ void loop() {
 }
 ```
 * Notes: If the connection to IBM IoT failed, try modifying the security settings of IBM IoT:
-in "SECURITY-Connection Security", change the "security level" to "TLS Optional". Also, the Node-RED application must be build, otherwise, no feedback command is generated.
+in "SECURITY-Connection Security", change the "security level" to "TLS Optional". Also, the Node-RED application must be built, otherwise, no feedback command is generated.
 
 ## 2. Store and analyze data using IBM cloud
 * A cloud database storing historical data must be built;
